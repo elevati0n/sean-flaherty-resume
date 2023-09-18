@@ -1,6 +1,6 @@
 import React from 'react';
 import Progress from './progress';
-import ListItem from './list_item';
+import ListItem from './listSectionItem.js';
 
 const Skills = ({ data }) => (
   <section>

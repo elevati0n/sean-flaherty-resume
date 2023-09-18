@@ -8,60 +8,69 @@
   "skills": [
     {
       "title": "General",
-      "type": "percent",
+      "type": "tag",
       "subskills": [
         {
-          "name": "Architecture",
+          "name": "Enterprise Systems Architecture",
           "percent": 89
         },
         {
-          "name": "Mobile/Web App Development",
+          "name": "Web Application Development",
           "percent": 95
         },
         {
-          "name": "Product Management",
-          "percent": 85
-        },
-        {
-          "name": "Project Management",
-          "percent": 92
-        },
-        {
-          "name": "Game Development",
-          "percent": 70
-        },
-        {
-          "name": "Blockchain",
-          "percent": 85
+          "name": "JavaScript Technical Lead",
+          "percent": 81
         },
         {
           "name": "Dev Ops",
           "percent": 81
         },
         {
-          "name": "Backend Development",
+          "name": "Full Stack Web Development",
           "percent": 93
         },
         {
-          "name": "Data Science",
-          "percent": 65
-        },
-        {
-          "name": "Artificial Intelligence",
-          "percent": 70
-        },
-        {
-          "name": "UX",
+          "name": "Principles of Accessible Design",
           "percent": 80
+        },
+        {
+          "name": "Test Driven Development",
+          "percent": 85
+        },
+        {
+          "name": "RESTful Services",
+          "percent": 92
+        },
+        {
+        "name": "API Integration"
+        },
+        {
+        "name": "Component-Based Architecture"
+        },
+        {
+          "name": "Troubleshooting / Problem Solving"
+        },
+        {
+          "name": "Teaching / Mentoring"
+        },
+        {
+          "name": "Technical Writing"
+        },
+        {
+          "name": "E-Commerce Integration"
+        },
+        {
+          "name": "Clean, Readable Code"
         }
       ]
     },
     {
       "title": "Languages",
-      "type": "percent",
+      "type": "tag",
       "subskills": [
         {
-          "name": "Javascript",
+          "name": "JavaScript / EScript / TypeScript / Node.js",
           "percent": 96
         },
         {
@@ -73,38 +82,53 @@
           "percent": 85
         },
         {
-          "name": "C#",
+          "name": "C++",
           "percent": 74
         },
         {
-          "name": "Solidity",
-          "percent": 85
+          "name": "C",
+          "percent": 74
         },
         {
-          "name": "Dart",
-          "percent": 75
+          "name": "Ruby",
+          "percent": 74
         },
         {
-          "name": "Go",
-          "percent": 60
+          "name": "Lisp / Racket",
+          "percent": 74
+        },
+        {
+          "name": "Verilog",
+          "percent": 74
+        },
+        {
+          "name": "PHP",
+          "percent": 74
+        },
+        {
+          "name": "HTML / CSS / SCSS",
+          "percent": 74
         }
       ]
     },
     {
-      "title": "Frameworks",
+      "title": "Technologies",
       "type": "tag",
       "subskills": [
         {
-          "name": "React"
+          "name": "React 18"
         },
         {
-          "name": "Flutter"
+          "name": "Gatsby"
         },
         {
-          "name": "React Native"
+          "name": "Redux"
         },
         {
-          "name": "Vue"
+          "name": "Gitlab"
+        },
+        {
+          "name": "Vue.js"
         },
         {
           "name": "Spring"
@@ -119,17 +143,9 @@
           "name": "Node"
         },
         {
-          "name": "Flusk"
-        },
-        {
           "name": "Express"
         },
-        {
-          "name": "Koa"
-        },
-        {
-          "name": "Gatsby"
-        },
+
         {
           "name": "Apollo"
         },
@@ -137,29 +153,23 @@
           "name": "Django"
         },
         {
-          "name": "Loopback"
-        },
-        {
           "name": "Next"
         },
         {
-          "name": "Amplify"
+          "name": "GraphQL"
         },
         {
-          "name": "Pixi"
+          "name": "Webpack"
         },
         {
-          "name": "Phaser"
+          "name": "Linux / Debian"
         },
         {
-          "name": "Feathers"
-        }
-      ]
-    },
-    {
-      "title": "Software",
-      "type": "tag",
-      "subskills": [
+          "name": "Ruby on Rails"
+        },
+        {
+          "name": "BASH / Shell Scripting"
+        },
         {
           "name": "Docker"
         },
@@ -167,39 +177,21 @@
           "name": "Jira"
         },
         {
-          "name": "Unity"
-        },
-        {
-          "name": "Godot"
-        },
-        {
           "name": "Google Analytics"
-        }
-      ]
-    },
-    {
-      "title": "Databases",
-      "type": "tag",
-      "subskills": [
-        {
-          "name": "Postgresql"
         },
         {
-          "name": "Mongodb"
-        },
-        {
-          "name": "Parse"
-        },
-        {
-          "name": "Firebase"
-        },
-        {
-          "name": "Elastic Search"
+          "name": "Solr"
         }
       ]
     }
   ],
-  "summary": "Work closely with clients as part of the specialized Front-End/JavaScript Production Team.  Leverage decoupling architecture patterns to connect existing and legacy Content Management Systems and Full Stack Frameworks  (Drupal, WordPress, Ruby on Rails, etc) with modern Front End frameworks (Gatsby, React, Vue, Next etc.) to deliver a robust, modern, accessible web experience for both backend CMS client users and public retail end users.  - Monitor and train Junior Developers (both internal and client) with the guidance of Senior Developer. Architect and develop complex web components using React and API endpoints to deliver complex functionalities, such as a multiple step form microsite and a full functionality Financial Trading Platform.",
+  "summary": [
+    "Experienced Senior Web Developer and Computer Engineer with a strong background in building modern websites and web applications, enhancing user experiences and intregating enterprise systems.",
+    "Specializing in JavaScript, React, API development, and Enterprise Systems Integration with various web based platforms.",
+    "Experienced in mentoring junior developers the intracies of JavaScript and how to write proper, clean code.",
+    "Agency experience optimizing and integrating e-commerce systems, streamlining processes, and creating user-friendly, accessible web components.",
+    "I am now seeking opportunities where I can apply my experience as a JavaScript specialist and Software Architect"
+  ],
   "education": [
     {
       "institution": "Northeastern University",
@@ -208,67 +200,77 @@
       "end": "2016"
     },
     {
-      "institution": "Ben Franklin Institute of Technology",
+      "institution": "BFIT",
       "degree": "Mechanical Engineering Technology | Automotive Technology",
       "start": "2008",
       "end": "2010"
     }
   ],
   "experience": [
-    {
-      "role": "Senior Software Engineer",
-      "company": "Therefore Interactive",
-      "description": "Enterprise web development.  JavaScript / React Technical Lead",
-      "start": "03/2022",
-      "end": "-"
-    },
-    {
-      "role": "Intermediate Software Engineer",
-      "company": "OPIN Digital",
-      "description": "Enterprise web development.  JavaScript Expert.",
-      "start": "2019",
-      "end": "02/2022"
-    },
-    {
-      "role": "Full Stack Tech Lead",
-      "company": "Solve Care",
-      "description": "Solve care is a healthcare blockchain platform. I was responsible for the client side development team and architecture of the platform. I was also active in product management team.",
-      "start": "04/2018",
-      "end": "11/2018"
-    },
-    {
-      "role": "Full Stack Lead Developer",
-      "company": "Applied Blockchain",
-      "description": "Applied Blockchain built blockchain applications for enterprises and startups. I built 4 full stack blockchain projects during my contract.",
-      "start": "10/2017",
-      "end": "04/2018"
-    },
-    {
-      "role": "Full Stack Lead Developer",
-      "company": "Dmapper",
-      "description": "Worked as a lead full-stack developer for Cortex which is B2B audit automation software for Deloitte. I was responsible for the architecture and development of the platform, managing development team.",
-      "start": "12/2016",
-      "end": "10/2017"
-    },
-    {
-      "role": "Front End Developer - UI/UX Designer",
-      "company": "GovRight",
-      "description": "GovRight provides citizens the opportunity to understand and contribute to government and legislation. I was responsible for the UX and development of admin interface for the platform.",
-      "start": "11/2015",
-      "end": "04/2016"
-    },
-    {
-      "role": "Full Stack Developer",
-      "company": "Freelance",
-      "description": "In the first years of my career, I had the privilege to work with many startups and building my own games and applications.",
-      "start": "04/2008",
-      "end": "01/2016"
-    }
+      {
+        "role": "Senior Web Developer | Software Engineer",
+        "company": "Therefore Interactive",
+        "description": [
+          "Design and development of modern web solutions with a focus on distributed e-commerce systems.",
+          "Applied decoupling architecture patterns, to connect diverse Content Management Systems with cutting-edge Front-End frameworks (Gatsby, React, Vue, Next, etc.) to deliver robust, accessible web experiences.",
+          "Utilized React, advanced JavaScript knowledge and RESTful principals to create complex web components and functionalities, including a multiple-step government form microsite and a full-functionality Financial Trading Platform.",
+          "Mentored and trained Junior Developers, both internal and client, imparting high standards of code quality and advanced JavaScript and functional programming knowledge.",
+          "Delivered innovative e-commerce solutions to clients, ensuring efficient data flow and seamless platform integration."
+        ],
+        "start": "2021",
+        "end": "2023"
+      },
+      {
+        "role": "Intermediate Web Developer | Software Engineer",
+        "company": "OPIN Digital",
+        "description": [
+          "Specialized as a JavaScript expert and tech lead, providing company-wide JS training and guidance.",
+          "Full-stack Web Developer, managing front-end development, Drupal custom modules, hosting, and multiple server environments.",
+          "Applied advanced techniques to optimize and integrate distributed e-commerce systems, leveraging Drupal, custom modules, JSON:API, GraphQL, and more.",
+          "Developed a wide array of interactive, responsive web components, including accessible navigations, menus, slideshows, and WCAG compliant video players to cater to diverse user needs.",
+          "Established and maintained the Gitlab CI/CD pipeline for continuous building, integration, and deployment, promoting a component-based design approach."
+        ],
+        "start": "2019",
+        "end": "2021"
+      },
+      {
+        "role": "Junior Software Engineer",
+        "company": "Black Duck Software",
+        "description": [
+          "Worked as part of an AGILE team upgrading Java Spring Framework to Java 8 for WebApp Vulnerability",
+          "Identified o(n)^2 runtime (slow) client-facing Java decompression- implemented solution algorithm: oln(n) ",
+          "Earned an honorable mention in a Hackathon for modernizing OpenHub forums using Ruby on Rails."
+        ],
+        "start": "2015",
+        "end": "2016"
+      },
+      {
+        "role": "Jr Electromechanical Engineer",
+        "company": "Rypos",
+        "description": [
+          "Collaborated on the integration of electromechanical components in distributed systems, gaining experience in networked units and control circuit design.",
+          "Collaborated on the design of, and tests for next generation model, using optical isolation control circuits.",
+          "Converted stand-alone embedded system into multiple networked units over RS-485."
+        ],
+        "start": "2014",
+        "end": "2014"
+      },
+      {
+        "role": "ASE Certified Technician",
+        "company": "Herb Chambers Honda Infiniti",
+        "description": [
+          "ASE Certified Dealership vehicle maintenance and repair",
+          "Licensed State (MA) Vehicle Safety and Emissions Inspector"
+        ],
+        "start": "2007",
+        "end": "2010"
+      }
+    
   ],
   "social": [
     {
       "service": "youtube",
-      "url": "https://www.youtube.com/channel/UCczRc31u_YXNiSpYKxQU_Ug"
+      "url": "#"
     },
     {
       "service": "linkedin",
@@ -298,9 +300,9 @@
   "role": "Senior Software Engineer | JavaScript + React Specialist",
   "projects": [
     {
-      "name": "Gatsby Resume starter",
-      "company": "Open source",
-      "description": "MIT LICENSE see repo.",
+      "name": "Sean Flaherty Resume",
+      "company": "Open source MIT License",
+      "description": "",
       "link": "https://github.com/elevati0n/sean-flaherty-resume"
     }
   ],

@@ -1,4 +1,6 @@
 import React from 'react';
+import BulletList from './bulletList.js'
+
 
 const Experience = ({ data }) => (
   <section>
@@ -10,7 +12,9 @@ const Experience = ({ data }) => (
           <h3 className="item-sub">
             {item.company} | {item.start} - {item.end || 'PRESENT'}
           </h3>
-          <p className="py-6">{item.description}</p>
+          <p className="py-6">
+            <BulletList data={item.description}></BulletList>
+           </p>
         </article>
       ))}
   </section>
