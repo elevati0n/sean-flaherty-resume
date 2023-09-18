@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: barancezayirli/gatsby-starter-resume-cms #TODO replace this with your own repo
+  repo: elevati0n/sean-flaherty-resume
 
 media_folder: static/assets
 public_folder: assets
@@ -79,4 +79,3 @@ collections:
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Items, name: items, widget: list, field: { label: item, name: item, widget: string } }
-
