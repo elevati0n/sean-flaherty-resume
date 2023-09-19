@@ -1,12 +1,10 @@
 import React from "react";
+import AccordionList from "./accordion";
 
-const BulletList = ({data}) => 
-    <p className="text-center tracking-wide leading-relaxed lg:text-left lg:mx-8 lg:text-lg">
-            {Array.isArray(data) ? 
-            <ul> {data.map((d) => 
+const BulletList = ({data, title=''}) => Array.isArray(data) ? 
+            <ul className='bulletList'> {data.map((d) => 
                 <li>{d}</li>) 
             } </ul>
-            : data}
-    </p>
+            : data
 
 export default BulletList
