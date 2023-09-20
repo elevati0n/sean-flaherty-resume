@@ -17,9 +17,9 @@ const Experience = ({ data }) => (
             </p>
           }
           data={
-            <p className="mx-3">
+            <section className="mx-3">
               <BulletList data={item.description}></BulletList>
-            </p>
+            </section>
           }>
         </AccordionList>
       )
