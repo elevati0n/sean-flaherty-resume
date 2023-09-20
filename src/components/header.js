@@ -3,17 +3,14 @@ import Contact from './contact';
 
 const Header = ({ name, role, contacts }) => {
 
-  // useEffect(()=> {
-  //   setTimeout(() => {
-  //     if (window.gtag) {
-  //       alert('yes')
-  //     window.gtag('event', 'page_view')
-  //   } else {
-  //     alert('no')
-  //   }
-  //   }, 5000)
+  useEffect(()=> {
+    setTimeout(() => {
+      if (window.gtag) {
+      window.gtag('event', 'page_view')
+    } 
+  }, 12000)
     
-  // },[window.gtag])
+  },[window.gtag])
   
   return (
   <header className="border-b border-neutral-300 pb-2 md:flex items-center justify-between">

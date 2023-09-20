@@ -20,6 +20,7 @@ export default function AccordionList({title, data, expandByDefault = true}) {
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
+                    
                     {data}
                 </AccordionItemPanel>
             </AccordionItem>
