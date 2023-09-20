@@ -29,12 +29,13 @@ const Home = () => (
           {resume.projects && <Projects data={resume.projects} />}
         </div>
         <div className="lg:w-1/3 lg:pl-8 lg:border-l lg:border-neutral-300 ">
-        {resume.education && <Education data={resume.education} />}
+          {resume.education && <Education data={resume.education} />}
           {resume.skills && <Skills data={resume.skills} />}
           {resume.sidebar &&
             resume.sidebar.map(item => (
               <List key={`${item.title}-side`} data={item} />
             ))}
+          {resume.additionalEducation && <Education data={resume.additionalEducation} other={true} />}
         </div>
       </div>
       <Footer social={resume.social} />

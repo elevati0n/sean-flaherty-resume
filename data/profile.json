@@ -43,10 +43,10 @@
           "percent": 92
         },
         {
-        "name": "API Integration"
+          "name": "API Integration"
         },
         {
-        "name": "Component-Based Architecture"
+          "name": "Component-Based Architecture"
         },
         {
           "name": "Troubleshooting / Problem Solving"
@@ -62,6 +62,9 @@
         },
         {
           "name": "Clean, Readable Code"
+        },
+        {
+          "name": "Continuous Integration / Continuous Deployment"
         }
       ]
     },
@@ -145,7 +148,6 @@
         {
           "name": "Express"
         },
-
         {
           "name": "Apollo"
         },
@@ -186,86 +188,93 @@
     }
   ],
   "summary": [
-    "Experienced Senior Web Developer and Computer Engineer with a strong background in building modern websites and web applications, enhancing user experiences and intregating enterprise systems.",
-    "Specializing in JavaScript, React, API development, and Enterprise Systems Integration with various web based platforms.",
-    "Experienced in mentoring junior developers the intracies of JavaScript and how to write proper, clean code.",
-    "Agency experience optimizing and integrating e-commerce systems, streamlining processes, and creating user-friendly, accessible web components.",
-    "I am now seeking opportunities where I can apply my experience as a JavaScript specialist and Software Architect"
+    "Senior Web Developer and Computer Engineer with a strong background in building modern websites and web applications, enhancing user experiences and intregating enterprise systems",
+    "Specialist in JavaScript, React, API development and Enterprise Systems Integration with various web based platforms",
+    "Experienced in mentoring junior developers in the intricacies of JavaScript and how to write proper, clean code",
+    "Agency experience optimizing and integrating e-commerce systems, streamlining processes, and creating user-friendly, accessible web components",
+    "Now seeking opportunities to apply my experience as a JavaScript specialist and Software Architect"
   ],
   "education": [
     {
       "institution": "Northeastern University",
       "degree": "Electrical and Computer Engineering",
-      "start": "2010",
-      "end": "2016"
+      "minor": "Minor in Computer Science",
+      "date": "Class of 2018"
+    }
+  ],
+  "additionalEducation": [
+    {
+      "institution": "Benjamin Franklin Institute of Technology",
+      "degree": "Mechanical Engineering Technology",
+      "date": "2010"
     },
     {
-      "institution": "BFIT",
-      "degree": "Mechanical Engineering Technology | Automotive Technology",
-      "start": "2008",
-      "end": "2010"
+      "institution": "Benjamin Franklin Institute of Technology",
+      "degree": "Automotive Technology",
+      "date": "2009"
+    },
+    {
+      "institution": "Boston Latin School",
+      "date": "Class of 2003"
     }
   ],
   "experience": [
-      {
-        "role": "Senior Web Developer | Software Engineer",
-        "company": "Therefore Interactive",
-        "description": [
-          "Design and development of modern web solutions with a focus on distributed e-commerce systems.",
-          "Applied decoupling architecture patterns, to connect diverse Content Management Systems with cutting-edge Front-End frameworks (Gatsby, React, Vue, Next, etc.) to deliver robust, accessible web experiences.",
-          "Utilized React, advanced JavaScript knowledge and RESTful principals to create complex web components and functionalities, including a multiple-step government form microsite and a full-functionality Financial Trading Platform.",
-          "Mentored and trained Junior Developers, both internal and client, imparting high standards of code quality and advanced JavaScript and functional programming knowledge.",
-          "Delivered innovative e-commerce solutions to clients, ensuring efficient data flow and seamless platform integration."
-        ],
-        "start": "2021",
-        "end": "2023"
-      },
-      {
-        "role": "Intermediate Web Developer | Software Engineer",
-        "company": "OPIN Digital",
-        "description": [
-          "Specialized as a JavaScript expert and tech lead, providing company-wide JS training and guidance.",
-          "Full-stack Web Developer, managing front-end development, Drupal custom modules, hosting, and multiple server environments.",
-          "Applied advanced techniques to optimize and integrate distributed e-commerce systems, leveraging Drupal, custom modules, JSON:API, GraphQL, and more.",
-          "Developed a wide array of interactive, responsive web components, including accessible navigations, menus, slideshows, and WCAG compliant video players to cater to diverse user needs.",
-          "Established and maintained the Gitlab CI/CD pipeline for continuous building, integration, and deployment, promoting a component-based design approach."
-        ],
-        "start": "2019",
-        "end": "2021"
-      },
-      {
-        "role": "Junior Software Engineer",
-        "company": "Black Duck Software",
-        "description": [
-          "Worked as part of an AGILE team upgrading Java Spring Framework to Java 8 for WebApp Vulnerability",
-          "Identified o(n)^2 runtime (slow) client-facing Java decompression- implemented solution algorithm: oln(n) ",
-          "Earned an honorable mention in a Hackathon for modernizing OpenHub forums using Ruby on Rails."
-        ],
-        "start": "2015",
-        "end": "2016"
-      },
-      {
-        "role": "Jr Electromechanical Engineer",
-        "company": "Rypos",
-        "description": [
-          "Collaborated on the integration of electromechanical components in distributed systems, gaining experience in networked units and control circuit design.",
-          "Collaborated on the design of, and tests for next generation model, using optical isolation control circuits.",
-          "Converted stand-alone embedded system into multiple networked units over RS-485."
-        ],
-        "start": "2014",
-        "end": "2014"
-      },
-      {
-        "role": "ASE Certified Technician",
-        "company": "Herb Chambers Honda Infiniti",
-        "description": [
-          "ASE Certified Dealership vehicle maintenance and repair",
-          "Licensed State (MA) Vehicle Safety and Emissions Inspector"
-        ],
-        "start": "2007",
-        "end": "2010"
-      }
-    
+    {
+      "role": "Senior Web Developer | Software Engineer",
+      "company": "Therefore Interactive",
+      "description": [
+        "Full-stack Web Developer and Software Architect, design and development of modern web solutions with a focus on distributed e-commerce systems",
+        "Applied decoupling architecture patterns to connect diverse Content Management Systems with cutting-edge Front-End frameworks (Gatsby, React, Vue, Next, etc.) to deliver robust, accessible web experiences",
+        "Utilized React, advanced JavaScript knowledge and RESTful principles to create complex web components and functionalities, including a multiple-step government form microsite and a full-functionality financial trading platform",
+        "Mentored and trained Junior Developers, both internal and client, in advanced JavaScript and React, imparting high standards of code quality and functional programming knowledge",
+        "Delivered innovative e-commerce solutions to clients, leveraging AJAX for efficient data flow and seamless API platform integration"
+      ],
+      "start": "2021",
+      "end": "2023"
+    },
+    {
+      "role": "Intermediate Web Developer | Software Engineer",
+      "company": "OPIN Digital",
+      "description": [
+        "Full-stack Web Developer, managing front-end development, Drupal custom modules, hosting and multiple server environments",
+        "Specialized as a JavaScript expert and tech lead, providing company-wide JS training and guidance while promoting a component-based design approach",
+        "Applied advanced techniques to optimize and integrate distributed e-commerce systems, leveraging Drupal, custom modules, JSON:API, GraphQL and more",
+        "Developed a wide array of interactive, responsive web components, including accessible navigations, menus, slideshows and WCAG compliant video players to cater to diverse user needs",
+        "Established and maintained the Gitlab CI/CD pipeline for continuous building, integration and deployment"
+      ],
+      "start": "2019",
+      "end": "2021"
+    },
+    {
+      "role": "Junior Software Engineer",
+      "company": "Black Duck Software",
+      "description": [
+        "Worked as part of an AGILE team upgrading Java Spring Framework to Java 8 for WebApp Vulnerability",
+        "Identified o(n)^2 runtime (slow) client-facing Java decompression; implemented solution algorithm: oln(n)",
+        "Earned an honorable mention in a Hackathon for modernizing OpenHub forums using Ruby on Rails"
+      ],
+      "date": "Co-op 2015"
+    },
+    {
+      "role": "Jr Electromechanical Engineer",
+      "company": "Rypos",
+      "description": [
+        "Collaborated on the integration of electromechanical components in distributed systems, gaining experience in networked units and control circuit design",
+        "Collaborated on the design of, and tests for next generation model, using optical isolation control circuits",
+        "Converted stand-alone embedded system into multiple networked units over RS-485"
+      ],
+      "date": "Co-op 2014"
+    },
+    {
+      "role": "ASE Certified Technician",
+      "company": "Herb Chambers Honda Infiniti",
+      "description": [
+        "ASE Certified Dealership vehicle maintenance and repair",
+        "Licensed State (MA) Vehicle Safety and Emissions Inspector"
+      ],
+      "start": "2007",
+      "end": "2010"
+    }
   ],
   "social": [
     {

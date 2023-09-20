@@ -8,6 +8,7 @@
 .btn-secondary {
     @apply bg-secondary-500 text-white;
 }
+
 .btn-secondary:hover {
     @apply bg-secondary-700
 }
@@ -52,8 +53,6 @@
     @apply h-6 fill-current;
 }
 
-@tailwind utilities;
-
 
 /**
 * ----------------------------------------------
@@ -63,10 +62,10 @@
 .accordion {
     /* border: 1px solid rgba(0, 0, 0, 0.1); */
     /* border-radius: 2px; */
-    list-style-type: 'lower-alpha' 
+    list-style-type: 'lower-alpha'
 }
 
-.accordion__item + .accordion__item {
+.accordion__item+.accordion__item {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -124,8 +123,8 @@
     }
 }
 
-.accordion__heading { 
-    width:100%;
+.accordion__heading {
+    width: 100%;
     position: relative;
 }
 
@@ -138,3 +137,5 @@
 .bulletList {
     list-style-type: square;
 }
+
+@tailwind utilities;
