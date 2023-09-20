@@ -10,7 +10,7 @@ const Header = ({ name, role, contacts }) => {
     } 
   }, 12000)
     
-  },[window.gtag])
+  },[])
   
   return (
   <header className="border-b border-neutral-300 pb-2 md:flex items-center justify-between">
