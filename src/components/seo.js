@@ -68,13 +68,14 @@ const SEO = ({ description, lang, meta, title }) => {
         },
       ].concat(meta)}
     >
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-V385SC914R"></script>
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-V385SC914R"></script>
         <script>
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-V385SC914R');
+          gtag('event', 'page_view')
         `}
       </script>
   </Helmet>

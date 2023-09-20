@@ -5,6 +5,11 @@ const Header = ({ name, role, contacts }) => {
 
   useEffect(()=> {
     setTimeout(() => {
+    if (window.gtag) {
+      window.gtag('event', 'page_view')
+    }
+  }, 2000)
+    setTimeout(() => {
       if (window.gtag) {
       window.gtag('event', 'page_view')
     } 
