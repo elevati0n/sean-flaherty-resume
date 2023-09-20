@@ -3,16 +3,6 @@ import Contact from './contact';
 
 const Header = ({ name, role, contacts }) => (
   <header className="border-b border-neutral-300 pb-2 md:flex items-center justify-between">
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V385SC914R"></script>
-  <script dangerouslySetInnerHTML={{ __html:
-    `window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-V385SC914R');`
-  }}></script>
-
     <div>
       <h1 className="text-primary-500 text-4xl md:text-5xl font-bold tracking-wide leading-tight">
         {name}
