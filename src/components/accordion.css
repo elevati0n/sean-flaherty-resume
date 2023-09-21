@@ -51,7 +51,12 @@
 }
 
 .accordion__panel {
-    padding: 1rem 0;
+    padding: 1rem;
+
+    @media only screen and (max-width: 600px) {
+        padding: 1rem 0;
+    }
+
     animation: fadein 0.35s ease-in;
 }
 
@@ -78,6 +83,10 @@
     position: absolute;
     right: 1.5rem;
     top: 1.5rem;
+
+    @media only screen and (max-width: 600px) {
+        position: relative;
+    }
 }
 
 .bulletList {
