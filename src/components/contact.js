@@ -30,9 +30,9 @@ const Contact = ({ field, value }) => (
           target="_blank"
           href={value}
           rel="noopener noreferrer"
-          title="Request an Interview"
+          title="Github"
         >
-          Contact Me Form
+          Github
         </a>
       </>
     )}
