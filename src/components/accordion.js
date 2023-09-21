@@ -8,11 +8,13 @@ import {
     AccordionItemPanel,
 } from 'react-accessible-accordion';
 
+import "./accordion.css"
+
 // Demo styles, see 'Styles' section below for some notes on use.
 
-export default function AccordionList({title, data, expandByDefault = true}) {
+export default function AccordionList({ title, data, expandByDefault = true }) {
     return (
-        <Accordion allowMultipleExpanded={true} preExpanded={expandByDefault? ["1"] : []} allowZeroExpanded={true}>
+        <Accordion allowMultipleExpanded={true} preExpanded={expandByDefault ? ["1"] : []} allowZeroExpanded={true}>
             <AccordionItem uuid={"1"}>
                 <AccordionItemHeading>
                     <AccordionItemButton>

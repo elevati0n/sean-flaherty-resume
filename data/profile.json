@@ -250,7 +250,7 @@
       "company": "Black Duck Software",
       "description": [
         "Worked as part of an AGILE team upgrading Java Spring Framework to Java 8 for WebApp Vulnerability",
-        "Identified o(n)^2 runtime (slow) client-facing Java decompression; implemented solution algorithm: oln(n)",
+        "Identified O(n^2) runtime (slow) client-facing Java decompression; implemented solution algorithm: oln(n)",
         "Earned an honorable mention in a Hackathon for modernizing OpenHub forums using Ruby on Rails"
       ],
       "date": "Co-op 2015"
